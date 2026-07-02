@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820">
-  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d9e6f5"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
-  <rect width="640" height="820" rx="24" fill="url(#g)"/>
-  <circle cx="320" cy="250" r="115" fill="#c6d5e6"/>
-  <path d="M120 760c18-204 110-315 200-315s182 111 200 315" fill="#071e3a"/>
-  <path d="M210 535c55 44 165 44 220 0v225H210z" fill="#1f4c7f"/>
-  <text x="320" y="92" text-anchor="middle" font-family="Montserrat, Arial" font-size="32" font-weight="800" fill="#071e3a">REPLACE WITH BOB PHOTO</text>
-</svg>

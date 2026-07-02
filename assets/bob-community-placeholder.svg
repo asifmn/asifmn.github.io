@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760">
-  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#d9e6f5"/><stop offset="1" stop-color="#f7fafc"/></linearGradient></defs>
-  <rect width="900" height="760" fill="url(#bg)"/>
-  <rect y="420" width="900" height="340" fill="#577b47" opacity=".8"/>
-  <rect x="0" y="320" width="900" height="120" fill="#7aa3c7"/>
-  <circle cx="450" cy="255" r="100" fill="#c6d5e6"/>
-  <path d="M250 760c25-190 105-290 200-290s175 100 200 290" fill="#071e3a"/>
-  <text x="450" y="90" text-anchor="middle" font-family="Montserrat, Arial" font-size="34" font-weight="800" fill="#071e3a">COMMUNITY PHOTO PLACEHOLDER</text>
-</svg>

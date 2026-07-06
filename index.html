@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYCBizHub | Free NYC Business & Commercial Real Estate Marketplace</title>
+  <meta name="description" content="A free NYC marketplace for businesses for sale, commercial real estate, and broker listings." />
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">
+      <span>NYC</span>BizHub
+      <small>BUY · SELL · GROW</small>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#businesses">Buy a Business</a>
+      <a href="#sell">Sell a Business</a>
+      <a href="#properties">Commercial Real Estate</a>
+      <a href="#brokers">Brokers</a>
+      <a href="#resources">Resources</a>
+    </nav>
+    <div class="header-actions">
+      <a class="login" href="#">Login</a>
+      <a class="btn btn-outline" href="#sell">List Your Property</a>
+      <a class="btn btn-primary" href="#sell">List Your Business <span>FREE</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">NYC-only launch marketplace</p>
+          <h1>The Free Marketplace for NYC Businesses & Commercial Real Estate</h1>
+          <p class="lead">Buy, sell, or lease with zero listing fees. Connecting New York’s buyers, sellers, landlords, tenants, and brokers.</p>
+
+          <div class="search-card" role="search">
+            <div class="tabs">
+              <button class="active">Businesses for Sale</button>
+              <button>Commercial Properties</button>
+              <button>Brokers</button>
+            </div>
+            <form class="search-form">
+              <label>
+                <span>Search</span>
+                <input type="search" placeholder="Search by keyword or business name" />
+              </label>
+              <label>
+                <span>Category</span>
+                <select>
+                  <option>All Categories</option>
+                  <option>Restaurants</option>
+                  <option>Laundromats</option>
+                  <option>Convenience Stores</option>
+                  <option>Medical Practices</option>
+                </select>
+              </label>
+              <label>
+                <span>Borough</span>
+                <select>
+                  <option>NYC Boroughs</option>
+                  <option>Manhattan</option>
+                  <option>Brooklyn</option>
+                  <option>Queens</option>
+                  <option>Bronx</option>
+                  <option>Staten Island</option>
+                </select>
+              </label>
+              <label>
+                <span>Price</span>
+                <select>
+                  <option>Price Range</option>
+                  <option>Under $250K</option>
+                  <option>$250K - $500K</option>
+                  <option>$500K - $1M</option>
+                  <option>$1M+</option>
+                </select>
+              </label>
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+          </div>
+
+          <div class="benefits">
+            <div>
+              <strong>🏷️ 100% Free Listings</strong>
+              <span>No upfront costs</span>
+            </div>
+            <div>
+              <strong>👥 Reach More Buyers</strong>
+              <span>Local & global exposure</span>
+            </div>
+            <div>
+              <strong>🛡️ Trusted & Verified</strong>
+              <span>Safer marketplace</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-sidebar">
+          <div class="panel stats-panel">
+            <h2>NYC Marketplace in Numbers</h2>
+            <div class="stats-grid">
+              <div><span>🏢</span><strong>1,250+</strong><p>Businesses for Sale</p></div>
+              <div><span>🏙️</span><strong>850+</strong><p>Commercial Properties</p></div>
+              <div><span>🤝</span><strong>420+</strong><p>Active Brokers</p></div>
+              <div><span>👁️</span><strong>15K+</strong><p>Monthly Buyers</p></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="content-shell">
+      <div class="main-column">
+        <section id="businesses" class="listing-section">
+          <div class="section-heading">
+            <h2>Featured Businesses for Sale</h2>
+            <a href="#">View All Businesses →</a>
+          </div>
+          <div class="cards-grid">
+            <article class="listing-card">
+              <div class="card-image cafe"><span class="badge green">NEW</span><button aria-label="Save listing">♡</button></div>
+              <div class="card-body">
+                <h3>Trendy Café in Williamsburg</h3>
+                <p>🍽️ Restaurant</p><p>📍 Brooklyn, NY</p>
+                <strong class="price">$175,000</strong>
+                <div class="chips"><span>$12K/mo Revenue</span><span>Asset Sale</span></div>
+              </div>
+            </article>
+            <article class="listing-card">
+              <div class="card-image laundromat"><span class="badge green">NEW</span><button aria-label="Save listing">♡</button></div>
+              <div class="card-body">
+                <h3>Laundromat Business</h3>
+                <p>🧺 Service</p><p>📍 Queens, NY</p>
+                <strong class="price">$350,000</strong>
+                <div class="chips"><span>$18K/mo Revenue</span><span>Cash Flow: $10K/mo</span></div>
+              </div>
+            </article>
+            <article class="listing-card">
+              <div class="card-image store"><span class="badge purple">HOT</span><button aria-label="Save listing">♡</button></div>
+              <div class="card-body">
+                <h3>Profitable Convenience Store</h3>
+                <p>🏪 Retail</p><p>📍 Manhattan, NY</p>
+                <strong class="price">$650,000</strong>
+                <div class="chips"><span>$35K/mo Revenue</span><span>Includes Inventory</span></div>
+              </div>
+            </article>
+            <article class="listing-card">
+              <div class="card-image dental"><span class="badge green">NEW</span><button aria-label="Save listing">♡</button></div>
+              <div class="card-body">
+                <h3>Dental Practice in Midtown</h3>
+                <p>🦷 Healthcare</p><p>📍 Manhattan, NY</p>
+                <strong class="price">$1,250,000</strong>
+                <div class="chips"><span>$60K/mo Revenue</span><span>Real Estate Available</span></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="properties" class="listing-section">
+          <div class="section-heading">
+            <h2>Featured Commercial Properties</h2>
+            <a href="#">View All Properties →</a>
+          </div>
+          <div class="cards-grid">
+            <article class="listing-card small"><div class="card-image office"><span class="badge blue">FOR LEASE</span></div><div class="card-body"><h3>Prime Retail Space</h3><p>📍 Astoria, Queens</p><strong class="price">$8,500/mo</strong></div></article>
+            <article class="listing-card small"><div class="card-image loft"><span class="badge purple">FOR SALE</span></div><div class="card-body"><h3>Mixed-Use Building</h3><p>📍 Bushwick, Brooklyn</p><strong class="price">$2,100,000</strong></div></article>
+            <article class="listing-card small"><div class="card-image warehouse"><span class="badge blue">FOR LEASE</span></div><div class="card-body"><h3>Warehouse Space</h3><p>📍 Bronx, NY</p><strong class="price">$18/sq ft</strong></div></article>
+          </div>
+        </section>
+      </div>
+
+      <aside class="side-column">
+        <section id="sell" class="panel steps-panel">
+          <h2>How It Works</h2>
+          <ol>
+            <li><span>1</span><div><strong>List for Free</strong><p>Create your listing in minutes. It’s 100% free.</p></div></li>
+            <li><span>2</span><div><strong>Get Discovered</strong><p>Buyers and tenants find your listing through our platform.</p></div></li>
+            <li><span>3</span><div><strong>Close the Deal</strong><p>Connect, negotiate, and close with confidence.</p></div></li>
+          </ol>
+          <a class="btn btn-outline full" href="#">List Your Business for Free</a>
+        </section>
+        <section id="brokers" class="broker-card">
+          <h2>Are you a Broker?</h2>
+          <p>Join our network and grow your deals across NYC.</p>
+          <a class="btn btn-light" href="#">Join as Broker</a>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 NYCBizHub Demo. Built for concept validation.</p>
+    <div><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Contact</a></div>
+  </footer>
+</body>
+</html>

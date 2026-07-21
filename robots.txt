@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://creative-handyman-sartell.netlify.app/sitemap.xml
